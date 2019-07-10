@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Neddy70</title>
+    <link>https://neddy70.github.io/blog/</link>
+    <description>Recent content in Blogs on Neddy70</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Apr 2018 18:10:28 +1000</lastBuildDate>
+    
+	<atom:link href="https://neddy70.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://neddy70.github.io/blog/hello-world/</link>
+      <pubDate>Wed, 25 Apr 2018 18:10:28 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/blog/hello-world/</guid>
+      <description>In this blog I hope to capture my journey at Launch School as I progress as a developer. I also hope to amass a small number of &amp;lsquo;How To&amp;rsquo;s&amp;rsquo; and information in the other sections of this website.
+Initially this site will be a bit of a work in progress, as I build up my skills, I plan to improve the site layout and functionality. For now, I&amp;rsquo;m happy with how it works, my main requirements we being able to write posts in Markdown wiht code highlighting.</description>
+    </item>
+    
+  </channel>
+</rss>

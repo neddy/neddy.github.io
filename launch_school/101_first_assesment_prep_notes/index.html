@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.40" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> 101 First Assesment Preparation Notes </title>
+
+  
+  <meta name="description" content="Note for preparing for first assesment at Launch School"> 
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Neddy70">
+
+
+  <meta property="og:title" content="101 First Assesment Preparation Notes" />
+<meta property="og:description" content="Note for preparing for first assesment at Launch School" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://neddy70.github.io/launch_school/101_first_assesment_prep_notes/" />
+
+
+
+<meta property="article:published_time" content="2018-05-05T14:00:00&#43;10:00"/>
+
+<meta property="article:modified_time" content="2018-05-05T14:00:00&#43;10:00"/>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+
+  <link rel="canonical" href="https://neddy70.github.io/launch_school/101_first_assesment_prep_notes/">  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon-128x128.png">
+
+
+  <link href="/css/font.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="/css/master.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="/">Neddy70</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="/" title="home"><img alt="Neddy70" height="128" src="/img/common/logo.png" width="128"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="/blog/" >Blog</a></li>
+    
+    <li><a href="/launch_school/" >Launch School</a></li>
+    
+    <li><a href="/mac_admin/" >Mac Admin</a></li>
+    
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+  <div id="main">
+    <div id="hero">
+      <h1> 101 First Assesment Preparation Notes </h1>
+      <p class="hero-lead">
+           Note for preparing for first assesment at Launch School.
+      </p>
+
+    </div>
+    <div id="kube-component" class="content">
+    
+<nav id="contents">
+    <ol class="js-toc">
+    </ol>
+</nav>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function(){
+tocbot.init({
+
+tocSelector: '.js-toc',
+
+contentSelector: '.content',
+
+headingSelector: 'h3'
+})
+}
+);
+</script>
+
+
+
+    
+
+<h3 id="specific-topics-of-interest">Specific Topics of Interest</h3>
+
+<p>Be able to explain clearly the following topics:</p>
+
+<ul>
+<li>local variable scope, especially how local variables interact with method invocations with blocks and method definitions</li>
+<li>how passing an object into a method definition can or cannot permanently change the object</li>
+<li>working with collections (Array, Hash, String), and popular collection methods (each, map, select, etc). Review the two lessons on these topics thoroughly.</li>
+<li><a href="https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers">variables as pointers</a></li>
+<li><a href="https://launchschool.com/books/ruby/read/methods#putsvsreturnthesequel">puts vs return</a></li>
+<li>false vs nil and the idea of &ldquo;truthiness&rdquo;</li>
+<li>method definition and method invocation</li>
+<li>implicit return value of method invocations and blocks</li>
+</ul>
+
+<h3 id="how-to-answer-the-assessment-questions">How to Answer the Assessment Questions</h3>
+
+<p>The questions in this assessment will typically be testing your knowledge and understanding on more than one level.</p>
+
+<ul>
+<li>On one level the question is testing your ability to parse code and to describe it with precision, or testing your knowledge of some specific syntactical aspect or language-specific feature of the Ruby programming language.</li>
+<li>On another level, the question is checking your understanding of some deeper, underlying principle; this might be some more fundamental aspect of the Ruby language, or a non-language-specific concept that applies to programming more generally.</li>
+</ul>
+
+<p>When answering the questions, you should:</p>
+
+<ul>
+<li>Explain your reasoning with reference to specific lines in the program. You can use line numbers to refer to specific lines of code where necessary.</li>
+<li>Answer with extreme precision. For example, say &ldquo;method definition&rdquo; or &ldquo;method invocation&rdquo; as opposed to just &ldquo;method&rdquo; (see the section on &lsquo;Precision of Language&rsquo; below for more on this).</li>
+<li>Highlight any specific syntactical conventions or technical observations where relevant.</li>
+<li>Identify the key fundamental concept or concepts being demonstrated in the question.</li>
+</ul>
+
+<h5 id="example">Example</h5>
+
+<p>Examine the code example below. The last line outputs the String &lsquo;Hi&rsquo; rather than the String &lsquo;Hello&rsquo;. Explain what is happening here and identify the underlying principle that this demonstrates.</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">greeting <span style="color:#555">=</span> <span style="color:#c30">&#39;Hello&#39;</span>
+
+<span style="color:#069">loop</span> <span style="color:#069;font-weight:bold">do</span>
+  greeting <span style="color:#555">=</span> <span style="color:#c30">&#39;Hi&#39;</span>
+  <span style="color:#069;font-weight:bold">break</span>
+<span style="color:#069;font-weight:bold">end</span>
+
+<span style="color:#366">puts</span> greeting</code></pre></div>
+<h3 id="my-answer-before-looking-at-suggested-answer">My answer before looking at suggested answer:</h3>
+
+<p>Within this code, on the first line, the string &lsquo;Hello&rsquo; is assigned to the variable &lsquo;greeting&rsquo;. Next, a loop block is run, inside the block, the string &lsquo;Hi&rsquo; is assigned to the variable &lsquo;greeting&rsquo;. Next, the loop is broken with &lsquo;break&rsquo;. Finally the method &lsquo;puts&rsquo; is called on the variable &lsquo;greeting&rsquo; which which now contains the string &lsquo;Hi&rsquo;, which is output to the screen. The variable &lsquo;greeting&rsquo; contains the string &lsquo;Hi&rsquo; because is was assigned this value within the loop. If a variable is defined outside a block it may be accessed from within a block, and it&rsquo;s vaule modified.</p>
+
+<h3 id="ls-answers-and-explanations">LS answers and explanations</h3>
+
+<p>Compare the following possible answers to this question:</p>
+
+<p>A) greeting is set to &lsquo;Hello&rsquo; on line 1. greeting is set to &lsquo;Hi&rsquo; on line 4. Line 8 outputs greeting, which is &lsquo;Hi&rsquo;.</p>
+
+<p>B) The local variable greeting is assigned to the String &lsquo;Hello&rsquo; on line 1. Within the loop, greeting is then reassigned to the String Hi on line 4. The puts method is called on line 8 with the variable greeting passed to it as an argument; since greeting is now assigned to &lsquo;Hi&rsquo;, this is what is output.</p>
+
+<p>C) The local variable greeting is assigned to the String &lsquo;Hello&rsquo; on line 1. The do..end alongside the loop method invocation on lines 3 to 6 defines a block, within which greeting is reassigned to the String Hi on line 4. The puts method is called on line 8 with the variable greeting passed to it as an argument; since greeting is now assigned to &lsquo;Hi&rsquo;, this is what is output.</p>
+
+<p>D) The local variable greeting is assigned to the String &lsquo;Hello&rsquo; on line 1. The do..end alongside the loop method invocation on lines 3 to 6 defines a block, within which greeting is reassigned to the String Hi on line 4. The puts method is called on line 8 with the variable greeting passed to it as an argument; since greeting is now assigned to &lsquo;Hi&rsquo;, this is what is output. This example demonstrates local variable scoping rules in Ruby; specifically the fact that a local variable initialized outside of a block is accessible inside the block.</p>
+
+<p>While none of these answers is technically incorrect, they all answer the question with varying degrees of detail and precision.</p>
+
+<ul>
+<li><p>Answer &lsquo;A&rsquo; describes what is happening in the code example, but does so in a fairly basic way with imprecise language. This wouldn&rsquo;t be a sufficient response to receive full points for any of the questions in the assessment.</p></li>
+
+<li><p>Answer &lsquo;B&rsquo; again describes what is happening, but with much greater precision of language. This would score higher than Answer &lsquo;A&rsquo;, but generally wouldn&rsquo;t be sufficient to receive full points for the majority of questions; most questions in the assessment are looking for something more, such as a specific piece of syntactical knowledge and perhaps identification of some fundamental concept.</p></li>
+
+<li><p>Answer &lsquo;C&rsquo;, as well as precisely describing the example, identifies an important Ruby syntactical convention that is relevant to the example: the fact that the method invocation combined with do..end defines a block in Ruby. For some assessment questions this might be sufficient to receive full points, but many questions will expect you to demonstrate some deeper understanding of the fundamental concept that this illustrates.</p></li>
+
+<li><p>Answer &rsquo;D&rsquo; goes a step further than &lsquo;C&rsquo; by explaining why this is important and the underlying principle that it demonstrates; i.e. the fact that method invocations with blocks in Ruby have particular scoping rules which affect whether or not the local variable can be referenced or reassigned. Based on the way that this particular question is phrased, answer &rsquo;D&rsquo; would be the only answer of the four to receive full points in an actual assessment.</p></li>
+</ul>
+
+<h3 id="example-question-from-discussion-post-and-my-answer">Example Question from Discussion Post, and My Answer</h3>
+
+<p>Describe the following code:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">fix</span>(value)
+  value <span style="color:#555">&lt;&lt;</span> <span style="color:#c30">&#39;xyz&#39;</span>
+  value <span style="color:#555">=</span> value<span style="color:#555">.</span>upcase
+  value<span style="color:#555">.</span>concat(<span style="color:#c30">&#39;!&#39;</span>)
+<span style="color:#069;font-weight:bold">end</span>
+s <span style="color:#555">=</span> <span style="color:#c30">&#39;hello&#39;</span>
+t <span style="color:#555">=</span> fix(s)</code></pre></div>
+<p>A method &lsquo;fix&rsquo;, is defined on the first line, with a parameter of &lsquo;value&rsquo;. The variable &rsquo;s&rsquo; is assigned a value of &lsquo;hello&rsquo; on line 6, then the method &lsquo;fix&rsquo; is then called with &rsquo;s&rsquo; passed to the method and assigned to the variable &lsquo;value&rsquo;, with the return value of the method assigned to the variable &rsquo;t&rsquo;. Within the method &lsquo;fix&rsquo;, on line 2, the string &lsquo;xyz&rsquo; is appended to the variable &lsquo;value&rsquo;, this mutates the object referenced by the variable &lsquo;value&rsquo;, which the variable &rsquo;s&rsquo; also references, therefore both the variable &lsquo;value&rsquo; within the method, and the variable &rsquo;s&rsquo; outside the method now contain the string &lsquo;helloxyz&rsquo;. Next, on line 3, the variable &lsquo;value&rsquo; is assigned a new value of it&rsquo;s previous value in upercase as a result of calling the method upcase on the variable &lsquo;value&rsquo;. &lsquo;value&rsquo; now contains a new string object &lsquo;HELLOXYZ&rsquo;, this does not mutate &rsquo;s&rsquo;, which is left unchaged. Finally on line 4, the string &lsquo;!&rsquo; is appened to the string object referenced by the variable &lsquo;value&rsquo;, this is done by calling the concat method on &lsquo;value&rsquo; with the string &lsquo;!&rsquo; passed to the method. This mutates the variable &lsquo;value&rsquo; to &lsquo;HELLOXYZ!&rsquo;, which is the final expression in the method &lsquo;fix&rsquo;, and is therefore implicitly return by the &lsquo;fix&rsquo; method and assigned to the variable &rsquo;t&rsquo;. The final value for the variables is: &rsquo;s&rsquo; = &lsquo;helloxyz&rsquo;, &rsquo;t&rsquo; = &lsquo;HELLOXYZ!&rsquo;</p>
+
+<p>This method demonstarates how some operations inside a method can mutate the caller, but do not always do so. This method also demonstrates how a medthod with implicitly return the last expression of hte method.</p>
+
+<h3 id="precision-of-language">Precision of Language</h3>
+
+<p>Most of the questions will require that you explain the code using words. It&rsquo;s important to be able to explain why something happens using precise vocabulary and be able to pinpoint the exact causal mechanism at work. In other words, be precise and don&rsquo;t be vague.</p>
+
+<p>For example, let&rsquo;s take the following piece of code.</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">a_method</span>
+  <span style="color:#366">puts</span> <span style="color:#c30">&#34;hello world&#34;</span>
+<span style="color:#069;font-weight:bold">end</span></code></pre></div>
+<p>If asked to describe the method, you might be tempted to say &ldquo;the results of the method is hello world&rdquo;. This isn&rsquo;t wrong, but for a programmer, it&rsquo;s extremely imprecise and doesn&rsquo;t help us understand the method. If you had written that as an answer, you&rsquo;d score a <sup>5</sup>&frasl;<sub>10</sub> on the question (50% is not a passing score).</p>
+
+<p>The more precise answer would be &ldquo;the method outputs the string hello world, and returns nil&rdquo;. In programming, we are always concerned with the output and the return value and mutations to objects. We need to speak in those terms, and not use vague words like &ldquo;results&rdquo;.</p>
+
+<p>When writing answers to the test questions, make sure to be as precise as possible, and use the proper vocabulary. Doing this will help you debug and understand more complex code later in your journey. If your definitions are not precise, you will not be able to lean on them to decompose complicated code. Also, you will likely not be able to pass this assessment.</p>
+
+<h3 id="some-specific-definitions">Some Specific Definitions</h3>
+
+<p>As well as requiring a general precision of language in your answers, for the purposes of the assessment there are a few areas where we would like you to refer to certain things in a very clear and fairly specific way; these are outlined below.</p>
+
+<h3 id="truthiness">Truthiness</h3>
+
+<p>In the assessment we want you to be very clear about the distinction between truthy and the boolean true (and similarly the distinction between falsey and the boolean false).</p>
+
+<p>In Ruby, every value apart from false and nil, evaluates to true in a boolean context. We can therefore say that in Ruby, every value apart from false and nil is truthy; we can also say that false and nil are falsey. This is not the same as saying every value apart from false and nil is true, or is equal to true. These may seem like subtle distinctions but they are important ones.</p>
+
+<p>Example:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">a <span style="color:#555">=</span> <span style="color:#c30">&#34;Hello&#34;</span>
+
+<span style="color:#069;font-weight:bold">if</span> a
+  <span style="color:#366">puts</span> <span style="color:#c30">&#34;Hello is truthy&#34;</span>
+<span style="color:#069;font-weight:bold">else</span>
+  <span style="color:#366">puts</span> <span style="color:#c30">&#34;Hello is falsey&#34;</span>
+<span style="color:#069;font-weight:bold">end</span></code></pre></div>
+<ul>
+<li><code>a</code> is <code>true</code> and so &lsquo;Hello is truthy&rsquo; is output&rdquo; would be incorrect</li>
+<li><code>a</code> is equal to <code>true</code> and so &lsquo;Hello is truthy&rsquo; is output&rdquo; would be incorrect</li>
+<li><code>a</code> evaluates to <code>true</code> in the condtional statement and so &lsquo;Hello is truthy&rsquo; is output&rdquo; would be correct</li>
+<li><code>a</code> is truthy and so &lsquo;Hello is truthy&rsquo; is output&rdquo; would be correct</li>
+</ul>
+
+<h5 id="to-sum-up">To sum up:</h5>
+
+<p>*Use &ldquo;evaluates to true&rdquo; or &ldquo;is truthy&rdquo; when discussing an expression that evaluates to true in a boolean context
+*Do not use &ldquo;is true&rdquo; or &ldquo;is equal to true&rdquo; unless specifically discussing the boolean true</p>
+
+<h3 id="method-definition-and-method-invocation">Method Definition and Method Invocation</h3>
+
+<p>When discussing methods, particularly in terms of how blocks and methods interact with local variables, we want you to explain this in terms of method definition and method invocation. You can review <a href="https://launchschool.com/lessons/a0f3cd44/assignments/9e9e907c">this assignment</a> for an outline of the mental model to use.</p>
+
+<h3 id="integer-fixnum-and-bignum">Integer, Fixnum and Bignum</h3>
+
+<p>As of Ruby 2.4.0, Ruby has unified Fixnum and Bignum into Integer; Fixnum and Bignum are now deprecated. For the purposes of the assessment we want you to refer to Integer when identifying a Ruby object that represents a whole number. <a href="https://launchschool.com/lessons/c82cd406/assignments/1788c3a1">This assignment</a> provides some additional context.
+<br>
+<br></p>
+
+<hr />
+
+<h2 id="variable-references-and-object-mutability-articles">Variable References and Object Mutability Articles</h2>
+
+<p><br></p>
+
+<h3 id="1-variable-references-and-mutability-of-ruby-objects-https-launchschool-com-blog-references-and-mutability-in-ruby">1. <a href="https://launchschool.com/blog/references-and-mutability-in-ruby">Variable References and Mutability of Ruby Objects</a></h3>
+
+<p><em>Notes</em></p>
+
+<hr />
+
+<h5 id="variable-assignment">Variable Assignment</h5>
+
+<p>An object is a bit of data that has some sort of state — sometimes called a value — and associated behavior. It can be simple, like the Boolean object true, or it can be complex, like an object that represents a database connection.</p>
+
+<p>Objects can be assigned to variables, like this</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#555">&gt;&gt;</span> greeting <span style="color:#555">=</span> <span style="color:#c30">&#39;Hello&#39;</span>
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;Hello&#34;</span></code></pre></div>
+<p>This tells Ruby to associate the name greeting with the String object whose value is “Hello”. In Ruby, greeting is said to reference the String object. We can also talk of the variable as being bound to the String object, or binding variable to the String object. Internally, the relationship looks like this:</p>
+
+<p><img src="greeting-is-reference.png" alt="greeting-is-reference.png" /></p>
+
+<p>After assiging a greeting to a new variable <code>whazzup</code> the relationship looks like this:</p>
+
+<p><img src="greeting-and-whazzup-same-string.png" alt="" /></p>
+
+<h5 id="variable-reassignment">Variable Reassignment</h5>
+
+<p>If next we assign a new value to <code>greeting</code> with the <code>=</code> operator, the realtionship now looks like so:</p>
+
+<p><img src="greeting-and-whazzup-different-strings.png" alt="greeting-and-whazzup-different-strings" /></p>
+
+<p>Here, we see that <code>greeting</code> and <code>whazzup</code> no longer refer to the same object; they have different values and different object ids. Crazy, right? Internally, we now have:</p>
+
+<p>What this shows is that reassignment to a variable doesn’t change the object referenced by that variable.</p>
+
+<h5 id="mutability">Mutability</h5>
+
+<p>Objects can be either mutable or immutable. Mutable objects can be changed; immutable objects cannot be changed.</p>
+
+<p><em>Immutable Objects</em><br />
+In Ruby, numbers and boolean values are immutable. Once we create an immutable object, we cannot change it.</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#555">&gt;&gt;</span> a <span style="color:#555">=</span> <span style="color:#f60">5</span><span style="color:#555">.</span><span style="color:#f60">2</span>
+<span style="color:#555">=&gt;</span> <span style="color:#f60">5</span><span style="color:#555">.</span><span style="color:#f60">2</span>
+<span style="color:#555">&gt;&gt;</span> b <span style="color:#555">=</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> a
+<span style="color:#555">=&gt;</span> <span style="color:#f60">5</span><span style="color:#555">.</span><span style="color:#f60">2</span>
+<span style="color:#555">&gt;&gt;</span> b
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">46837436124653162</span>
+<span style="color:#555">&gt;&gt;</span> b<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">65752554559609242</span>
+<span style="color:#555">&gt;&gt;</span> a <span style="color:#555">=</span> b
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> a
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> b
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">65752554559609242</span>
+<span style="color:#555">&gt;&gt;</span> b<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">65752554559609242</span>
+<span style="color:#555">&gt;&gt;</span> b <span style="color:#555">+=</span> <span style="color:#f60">1</span><span style="color:#555">.</span><span style="color:#f60">1</span>
+<span style="color:#555">=&gt;</span> <span style="color:#f60">8</span><span style="color:#555">.</span><span style="color:#f60">4</span>
+<span style="color:#555">&gt;&gt;</span> a
+<span style="color:#555">=&gt;</span> <span style="color:#f60">7</span><span style="color:#555">.</span><span style="color:#f60">3</span>
+<span style="color:#555">&gt;&gt;</span> b
+<span style="color:#555">=&gt;</span> <span style="color:#f60">8</span><span style="color:#555">.</span><span style="color:#f60">4</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">65752554559609242</span>
+<span style="color:#555">&gt;&gt;</span> b<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">32425917317067566</span></code></pre></div>
+<p>Internally, the reasssignment looks like this:
+<img src="number-before-after-assignment.png" alt="number-before-after-assignment" /></p>
+
+<p>Immutable objects aren’t limited to numbers and booleans. Objects of some complex classes, such as nil (the only member of the NilClass class) and Range objects (e.g., 1..10) are immutable. Any class can establish itself as immutable by simply not providing any methods that alter its state.</p>
+
+<p><em>Mutable Objects</em><br />
+Unlike numbers, booleans, and a few other types, most objects in Ruby are mutable; they are objects of a class that permit modification of the object’s state in some way. Whether modification is permitted by setter methods or by calling methods that perform more complex operations is unimportant; so long as you can modify an object, it is mutable.</p>
+
+<p>Consider Ruby Array objects; you can easily modify elements using indexed assignment:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#555">&gt;&gt;</span> a <span style="color:#555">=</span> <span style="color:#c30">%w(a b c)</span>
+<span style="color:#555">=&gt;</span> <span style="color:#555">[</span><span style="color:#c30">&#34;a&#34;</span>, <span style="color:#c30">&#34;b&#34;</span>, <span style="color:#c30">&#34;c&#34;</span><span style="color:#555">]</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70227178642840</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">[</span><span style="color:#f60">1</span><span style="color:#555">]</span> <span style="color:#555">=</span> <span style="color:#c30">&#39;-&#39;</span>
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;-&#34;</span>
+<span style="color:#555">&gt;&gt;</span> a
+<span style="color:#555">=&gt;</span> <span style="color:#555">[</span><span style="color:#c30">&#34;a&#34;</span>, <span style="color:#c30">&#34;-&#34;</span>, <span style="color:#c30">&#34;c&#34;</span><span style="color:#555">]</span>
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70227178642840</span></code></pre></div>
+<p>This demonstrates that we can modify the value of a, but it doesn’t create a new object since the object id remains the same. We can see why this is by looking at how a is stored in memory:
+<img src="arrays-in-memory.png" alt="arrays-in-memory" /></p>
+
+<h4 id="a-brief-introduction-to-object-passing">A Brief Introduction to Object Passing</h4>
+
+<p>When you pass an object as an argument to a method, the method can — in theory — either modify the object, or leave it unmodified. It’s easy enough to see that any method can avoid modifying its arguments. However, whether or not the method can modify an argument is less clear; the ability to modify arguments depends in part on the mutability or immutability of the object represented by the argument, but also on how the argument is passed to the method.</p>
+
+<p>Some languages make copies of method arguments, and pass those copies to the method — since they are merely copies, the original objects can’t be modified. Objects passed to methods in this way are said to be passed by value, and the language is said to be using a pass by value object passing strategy.</p>
+
+<p>Other languages pass references to the method instead — a reference can be used to modify the original object, provided that object is mutable. Objects passed to methods in this way are said to be passed by reference, and the language is said to be using a pass by reference object passing strategy.</p>
+
+<p>Many languages employ both object passing strategies. One strategy is used by default; the other is used when a special syntax, keyword, or declaration is used. Some languages may even employ different defaults depending on the object type — for example, numbers may be passed using a pass by value strategy, while strings may be passed using a pass by reference strategy.</p>
+
+<p>Regardless of which strategy a language employs for a given argument and method, it’s important to know which one is used so you can understand what happens if the method modifies one of its arguments.</p>
+
+<h4 id="developing-a-mental-model">Developing A Mental Model</h4>
+
+<p>When learning new concepts, it often helps to develop a mental model of the concept, and then refine that model as additional information comes to light.</p>
+
+<p>Pass by value, as you’ll recall, means copying the original objects, so the original object cannot be modified. Since immutable objects cannot be changed, they act like Ruby passes them around by value. This isn’t a completely accurate interpretation of how Ruby passes immutable objects, but it helps us determine why the following code works like it does:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">increment</span>(a)
+  a <span style="color:#555">=</span> a <span style="color:#555">+</span> <span style="color:#f60">1</span>
+<span style="color:#069;font-weight:bold">end</span>
+
+b <span style="color:#555">=</span> <span style="color:#f60">3</span>
+<span style="color:#366">puts</span> increment(b)    <span style="color:#09f;font-style:italic"># prints 4</span>
+<span style="color:#366">puts</span> b               <span style="color:#09f;font-style:italic"># prints 3</span></code></pre></div>
+<p>Mutable objects, on the other hand, can always be modified simply by calling one of their mutating methods. They act like Ruby passes them around by reference; it isn’t necessary for a method to modify an object that is passed by reference, only that it can modify the object. As you’ll recall, pass by reference means that only a reference to an object is passed around; the variables used inside a method are bound to the original objects. This means that the method is free to modify those objects. Once again, this isn’t completely accurate, but it is helpful. For instance:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">append</span>(s)
+  s <span style="color:#555">&lt;&lt;</span> <span style="color:#c30">&#39;*&#39;</span>
+<span style="color:#069;font-weight:bold">end</span>
+
+t <span style="color:#555">=</span> <span style="color:#c30">&#39;abc&#39;</span>
+<span style="color:#366">puts</span> append(t)    <span style="color:#09f;font-style:italic"># prints abc*</span>
+<span style="color:#366">puts</span> t            <span style="color:#09f;font-style:italic"># prints abc*</span></code></pre></div>
+<h4 id="conclusion">Conclusion</h4>
+
+<p>In this article, we’ve seen that Ruby variables are merely references to objects in memory; that is, a variable is merely a name for some object. Multiple variables can refererence the same object, so modifying an object using a given variable name will be reflected in every other variable that is bound to that object. We’ve also learned that assignment to a variable merely changes the binding; the object the variable originally referenced is not modified. Instead, a different object is bound to the variable.</p>
+
+<p>We’ve also learned that certain object types, primarily numbers and Booleans but also some other types, are immutable in Ruby — unchanging; many other objects are mutable — changeable. If you attempt to change an immutable object, you won’t succeed — at best, you can create a new object, and bind a variable to that object with assignment. Mutable objects, however, can be modified without creating new objects.</p>
+
+<p>Finally, we’ve learned a bit about what pass by value and pass by reference mean. We’ve established a mental model that says that Ruby is pass by value for immutable objects, pass by reference otherwise. This model isn’t perfect, but it can be used to help determine whether the object associated bound to an argument will be modified.</p>
+
+<hr />
+
+<h3 id="2-mutating-and-non-mutating-methods-in-ruby-https-launchschool-com-blog-mutating-and-non-mutating-methods">2. <a href="https://launchschool.com/blog/mutating-and-non-mutating-methods">Mutating and Non-Mutating Methods in Ruby</a></h3>
+
+<p><em>Notes</em></p>
+
+<hr />
+
+<p>This article concentrates on mutating and non-mutating methods in Ruby with respect to certain arguments.</p>
+
+<h5 id="mutating-and-non-mutating-methods">Mutating and Non-Mutating Methods</h5>
+
+<p>Methods can either be mutating or non-mutating. The object that may, or may not be mutated is of concern when discussing wether a method is mutating or not.</p>
+
+<p><em>Non-Mutating Methods</em><br />
+A method is said to be non-mutating with respect to both an argument and it&rsquo;s receiver if it does not modify that argument.</p>
+
+<p>All methods are non-mutating with respect o immutable objects. A method can&rsquo;t modify numbers, or boolean values as they are immutable.</p>
+
+<p><em>Assignment is Non-Mutating</em><br />
+Of particular importance is assignment with <code>=</code>. <code>=</code> is not a method, but should be treated as a non-mutating method. The <code>=</code> merely tells Ruby to bind an object to a variable.</p>
+
+<p>compare the two following snippets of code:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">fix</span>(value)
+  value<span style="color:#555">.</span>upcase! <span style="color:#09f;font-style:italic"># Mutates object passed to method</span>
+  value<span style="color:#555">.</span>concat(<span style="color:#c30">&#39;!&#39;</span>) <span style="color:#09f;font-style:italic"># Also mutates object passed to method</span>
+  value <span style="color:#09f;font-style:italic"># returns mutated object</span>
+<span style="color:#069;font-weight:bold">end</span>
+
+s <span style="color:#555">=</span> <span style="color:#c30">&#39;hello&#39;</span>
+t <span style="color:#555">=</span> fix(s)</code></pre></div>
+<p>VS</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">fix</span>(value)
+  value <span style="color:#555">=</span> value<span style="color:#555">.</span>upcase <span style="color:#09f;font-style:italic"># new assignment </span>
+  value<span style="color:#555">.</span>concat(<span style="color:#c30">&#39;!&#39;</span>) <span style="color:#09f;font-style:italic"># Mutates new object, which is then implicitly returned</span>
+<span style="color:#069;font-weight:bold">end</span>
+
+s <span style="color:#555">=</span> <span style="color:#c30">&#39;hello&#39;</span>
+t <span style="color:#555">=</span> fix(s)</code></pre></div>
+<p>We can see that the first snippet of code not only mutates <code>s</code>, but also returns a value at the end of the method. The second snippet does not mutate the caller. It&rsquo;s important to note that even though <code>.concat</code> is used, which is mutating, it is not used on the original object passed to the method as a new object is created on the second line with the <code>=</code>, and then that object is mutated and returned. <code>*=</code>, <code>+=</code>, and <code>%=</code> also create new assignments.</p>
+
+<p>The <code>=</code> does not always cause a variable to reference a new object. Look at the following example:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#555">&gt;&gt;</span> <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">fix</span>(value)
+<span style="color:#555">--</span>   value <span style="color:#555">=</span> value<span style="color:#555">.</span>upcase!
+<span style="color:#555">--</span>   value<span style="color:#555">.</span>concat(<span style="color:#c30">&#39;!&#39;</span>)
+<span style="color:#555">--</span> <span style="color:#069;font-weight:bold">end</span>
+<span style="color:#555">=&gt;</span> <span style="color:#fc3">:fix</span>
+
+<span style="color:#555">&gt;&gt;</span> s <span style="color:#555">=</span> <span style="color:#c30">&#39;hello&#39;</span>
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;hello&#34;</span>
+
+<span style="color:#555">&gt;&gt;</span> s<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70363946430440</span>
+
+<span style="color:#555">&gt;&gt;</span> t <span style="color:#555">=</span> fix(s)
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;HELLO!&#34;</span>
+
+<span style="color:#555">&gt;&gt;</span> s
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;HELLO!&#34;</span>
+
+<span style="color:#555">&gt;&gt;</span> t
+<span style="color:#555">=&gt;</span> <span style="color:#c30">&#34;HELLO!&#34;</span>
+
+<span style="color:#555">&gt;&gt;</span> s<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70363946430440</span>
+
+<span style="color:#555">&gt;&gt;</span> t<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70363946430440</span></code></pre></div>
+<p>Here, when <code>value = value.upcase!</code> is executed, it actually references the original, MODIFIED object. This is because <code>.upcase!</code> mutates the original string, and then <code>=</code> assigns that object back to <code>value</code>.</p>
+
+<p><em>Mutating Methods</em></p>
+
+<p>A method is said to be mutating with respect to an argument or receiver if it modifies the argument or receiver.</p>
+
+<p>Many, but not all, methods that mutate their receiver use <code>!</code> as the last character of their name. However, this is not guaranteed to be the case. For instance, <code>String#concat</code> is a mutating method, but it does not include a <code>!</code>.</p>
+
+<p>There are several common methods that sometimes cause confusion, <code>#[]=</code>, <code>#&lt;&lt;</code>, and setter methods.</p>
+
+<p><em>Index Assignment is Mutating</em></p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">str<span style="color:#555">[</span><span style="color:#f60">3</span><span style="color:#555">]</span> <span style="color:#555">=</span> <span style="color:#c30">&#39;x&#39;</span>
+array<span style="color:#555">[</span><span style="color:#f60">5</span><span style="color:#555">]</span> <span style="color:#555">=</span> <span style="color:#360">Person</span><span style="color:#555">.</span>new
+<span style="color:#366">hash</span><span style="color:#555">[</span><span style="color:#fc3">:age</span><span style="color:#555">]</span> <span style="color:#555">=</span> <span style="color:#f60">25</span></code></pre></div>
+<p>This looks exactly like assignment, which is non-mutating, but is, in fact, mutating. <code>#[]</code> modifies the original object (the String, Array, or Hash). It doesn’t change the binding of each variable.</p>
+
+<p>The reason for this is that indexed assignment is a method that a class must supply if it needs indexed assignment. This method is named <code>#[]=</code>, and <code>#[]=</code> is expected to mutate the object to which it applies. It does not create a new object.</p>
+
+<p>An array example (explanation in comments):</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#555">&gt;&gt;</span> a <span style="color:#555">=</span> <span style="color:#555">[</span><span style="color:#f60">3</span>, <span style="color:#f60">5</span>, <span style="color:#f60">8</span><span style="color:#555">]</span>
+<span style="color:#555">=&gt;</span> <span style="color:#555">[</span><span style="color:#f60">3</span>, <span style="color:#f60">5</span>, <span style="color:#f60">8</span><span style="color:#555">]</span>
+
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70240541515340</span> <span style="color:#09f;font-style:italic"># array object ID</span>
+
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">[</span><span style="color:#f60">1</span><span style="color:#555">].</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">11</span> <span style="color:#09f;font-style:italic"># Object ID for element at index 1</span>
+
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">[</span><span style="color:#f60">1</span><span style="color:#555">]</span> <span style="color:#555">=</span> <span style="color:#f60">9</span>
+<span style="color:#555">=&gt;</span> <span style="color:#f60">9</span>
+
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">[</span><span style="color:#f60">1</span><span style="color:#555">].</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">19</span> <span style="color:#09f;font-style:italic"># new object ID for the element at index position 1</span>
+
+<span style="color:#555">&gt;&gt;</span> a
+<span style="color:#555">=&gt;</span> <span style="color:#555">[</span><span style="color:#f60">3</span>, <span style="color:#f60">9</span>, <span style="color:#f60">8</span><span style="color:#555">]</span>
+
+<span style="color:#555">&gt;&gt;</span> a<span style="color:#555">.</span>object_id
+<span style="color:#555">=&gt;</span> <span style="color:#f60">70240541515340</span> <span style="color:#09f;font-style:italic"># Same object ID for the array</span></code></pre></div>
+<p>This is normal behaviour when working with objects that support indexed assignment: the assignment does cause a new reference to be made, but it is the collection element e.g., (<code>a[1]</code>) that is bound to the new object, not the collection (enclosing object) itself.</p>
+
+<p><em>Concatenation is Mutating</em><br />
+The <code>#&lt;&lt;</code> method used by collections such as Array and Hash, along with the String class is mutating. It looks very similar to <code>+=</code>, but while the former is mutating, the latter is not.</p>
+
+<p>The <code>&lt;&lt;</code> operator is actually a method that is defined for some classes. It is usually used as a shorthand for appending new values to a collection or String. Such classes define <code>&lt;&lt;</code> to mutate their left-hand operand (the receiver object).</p>
+
+<p><em>Setters are Mutating</em><br />
+Setters are very similar to indexed assignment; they are methods that are defined to modify the state of an object. Both employ the <code>something = value</code> syntax, so they superficially look like assignments. With indexed assignment, the elements of a collection (or the characters of a String) are replaced; with setters, the state of the object is modified, usually by modifying an instance variable.</p>
+
+<p>Setter invocation looks like this:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">person<span style="color:#555">.</span>name <span style="color:#555">=</span> <span style="color:#c30">&#39;Bill&#39;</span>
+person<span style="color:#555">.</span>age <span style="color:#555">=</span> <span style="color:#f60">23</span></code></pre></div>
+<p>This looks exactly like assignment, which is non-mutating, but, since these are setter calls, they actually mutate the object bound to <code>person</code>.</p>
+
+<p>We won’t go into a lot of detail to illustrate this; suffice to say that a detailed discussion would be nearly identical to the discussion of indexed assignment.</p>
+
+<p><em>Refining the Mental Model</em><br />
+What does this have to do with whether Ruby is pass by value or pass by reference? The mere fact that Ruby can have methods that mutate its arguments would seem to say that Ruby must use pass by reference in some circumstances. Arguments that are passed by copy cannot be mutated, so Ruby must use pass by reference when a method can mutate its arguments.</p>
+
+<p>More importantly, the question of whether Ruby is pass by value or pass by reference usually concerns whether a method will mutate its arguments or receiver. With this discussion, we’re better equipped to determine whether a method will to mutate its arguments or receiver.</p>
+
+<p>The presence of a <code>!</code> at the end of a method name is a pretty good indicator that a method mutates its receiver. However, not all mutating methods use the <code>!</code> convention. In such cases, you need to look at the source code of the method to see what operations are performed. Certain operations, like setters and indexed assignments should always be treated as mutating methods; others, like assignment and the assignment operators (<code>+=</code>, <code>*=</code>, etc) are always non-mutating.</p>
+
+<p>While none of this modifies our mental model for object passing, it is all consistent with that mental model. Immutable objects still seem to be passed by value, while mutable objects seemed to be passed by reference. What we have done, though, is show that assignment can break the binding between an argument name and the object it references. This is important to keep in mind when examining the relationships between variables and objects.</p>
+
+<p><em>Conclusion</em><br />
+In this article, we’ve seen that methods in Ruby can be mutating or non-mutating with respect to individual arguments, to include the receiver object. A method that does not modify its arguments or receiver is non-mutating with respect to those objects; a method that does modify its arguments or receiver is mutating with respect to the modified objects.</p>
+
+<p>We’ve also learned that assignment in Ruby acts like a non-mutating method — it doesn’t modify any objects, but does alter the binding for the target variable. However, the syntactically similar indexed assignment and object setter operations are mutating. We’ve also seen that the <code>#&lt;&lt;</code> operator — when used for concatenation operations — is mutating, while the very similar operation performed by <code>+=</code> is non-mutating.</p>
+
+<hr />
+
+<h3 id="3-object-passing-in-ruby-pass-by-reference-or-pass-by-value-https-launchschool-com-blog-object-passing-in-ruby">3. <a href="https://launchschool.com/blog/object-passing-in-ruby">Object Passing in Ruby - Pass by Reference or Pass by Value</a></h3>
+
+<p><em>Notes</em></p>
+
+<hr />
+
+<hr />
+
+<p>Spend some time reviewing these articles to ensure that you have a good understanding of these topics.</p>
+
+<h3 id="assessment-prep-videos">Assessment Prep Videos</h3>
+
+<p>We did a Beginning Ruby series that will serve as great review for this test. Specifically, the sessions that are relevant to this assessment are:</p>
+
+<ul>
+<li><a href="https://launchschool.com/blog/live-session-beginning-ruby">Part 1</a></li>
+<li><a href="https://launchschool.com/blog/live-session-beginning-ruby-part-2">Part 2</a></li>
+<li><a href="https://launchschool.com/blog/live-session-beginning-ruby-part-3">Part 3</a></li>
+</ul>
+
+<h3 id="notes-to-organise">Notes To Organise</h3>
+
+<p>When you say &ldquo;the method local variable value is mutated ..&rdquo;, I&rsquo;d change that to &ldquo;Inside, the method fix, the string object pointed to by the local variable value is mutated &hellip;`. The point is that we don&rsquo;t mutate variables, but the objects those variables point to.</p>
+
+
+    
+    <br>
+    <div>
+      
+      
+      
+    </div>
+    </div>
+    </div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/blog/">Blog</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/neddy170"><img alt="T" height="28" src="/img/common/twitter.png" width="28"></a>
+        </li>
+        <li>
+          <a href="https://github.com/neddy70"><img alt="T" height="28" src="/img/common/github.png" width="28"></a>
+        </li>
+      </ul>
+    </nav>
+    <p>&copy; Licence MIT. Powered by: <a href="https://gohugo.io/">Hugo</a>, Theme by: <a href="https://github.com/jeblister/kube">Kube</a></p>
+  </footer>
+ </footer>
+
+
+  <script src="/js/kube.js" type="text/javascript">
+  </script>
+  <script src="/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

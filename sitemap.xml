@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://neddy70.github.io/mac_admin/munki_import_ms_office/</loc>
+    <lastmod>2018-04-27T16:45:32+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/launch_school/mac-setup/</loc>
+    <lastmod>2018-04-25T18:12:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/blog/hello-world/</loc>
+    <lastmod>2018-04-25T18:10:28+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/launch_school/script-to-create-exercise-files/</loc>
+    <lastmod>2018-04-27T22:45:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/launch_school/problem-solving-notes/</loc>
+    <lastmod>2018-05-03T10:59:47+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/blog/</loc>
+    <lastmod>2018-04-25T18:10:28+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/launch_school/</loc>
+    <lastmod>2018-04-25T18:12:53+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/mac_admin/</loc>
+    <lastmod>2018-04-27T16:45:32+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/</loc>
+    <lastmod>2018-04-27T16:45:32+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neddy70.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.47.1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Problem Solving Notes </title>
+
+  
+  <meta name="description" content="Notes taken while watching the Launch School &#39;Problem Solving Videos&#39;"> 
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Neddy70">
+
+
+  <meta property="og:title" content="Problem Solving Notes" />
+<meta property="og:description" content="Notes taken while watching the Launch School &#39;Problem Solving Videos&#39;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://neddy70.github.io/launch_school/problem-solving-notes/" /><meta property="article:published_time" content="2018-05-03T10:59:47&#43;10:00"/>
+<meta property="article:modified_time" content="2018-05-03T10:59:47&#43;10:00"/>
+  
+
+
+
+
+  
+  
+  
+  
+  
+
+  <link rel="canonical" href="https://neddy70.github.io/launch_school/problem-solving-notes/">  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon-128x128.png">
+
+
+  <link href="/css/font.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="/css/master.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="/">Neddy70</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="/" title="home"><img alt="Neddy70" height="128" src="/img/common/logo.png" width="128"></a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="/blog/" >Blog</a></li>
+    
+    <li><a href="/launch_school/" >Launch School</a></li>
+    
+    <li><a href="/mac_admin/" >Mac Admin</a></li>
+    
+      </ul>
+    </nav>
+    <nav id="top-nav-extra">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+  <div id="main">
+    <div id="hero">
+      <h1> Problem Solving Notes </h1>
+      <p class="hero-lead">
+           Notes taken while watching the Launch School 'Problem Solving Videos'.
+      </p>
+
+    </div>
+    <div id="kube-component" class="content">
+    
+<nav id="contents">
+    <ol class="js-toc">
+    </ol>
+</nav>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function(){
+tocbot.init({
+
+tocSelector: '.js-toc',
+
+contentSelector: '.content',
+
+headingSelector: 'h3'
+})
+}
+);
+</script>
+
+
+
+    
+
+<h3 id="small-code-challenge-problems">Small Code Challenge Problems</h3>
+
+<ul>
+<li>20 - 45 minutes</li>
+<li>typical solutions: 10-40 LOC</li>
+<li>used extensively in interviews for a reason
+
+<ul>
+<li>mastery on a language</li>
+<li>logic / reasoning</li>
+<li>communications</li>
+</ul></li>
+<li>not a skill that you &ldquo;acquire and file away&rdquo;, but needs a lot of practice</li>
+</ul>
+
+<h3 id="understand-the-problem">Understand the Problem</h3>
+
+<ul>
+<li>requirements are explicit
+
+<ul>
+<li>take notes</li>
+<li>the odd words problem</li>
+</ul></li>
+<li>requirements are not so explicit and need to be modeled
+
+<ul>
+<li>examples need to be described in computational words</li>
+<li>diamond of stars</li>
+</ul></li>
+<li>implicit knowledge needs to be captured
+
+<ul>
+<li>convert to explicit rules, in computational language</li>
+<li>what century is that</li>
+</ul></li>
+<li>identifying and defining important terms and concepts
+
+<ul>
+<li>queen attack</li>
+<li>same row; same column; esp. same diagnal</li>
+</ul></li>
+<li>ask questions to verify your understanding!</li>
+</ul>
+
+<h3 id="examples-test-cases">Examples / Test Cases</h3>
+
+<ul>
+<li>Input / Output</li>
+<li>Test cases serve two purposes:
+
+<ul>
+<li>help you understand the problem</li>
+<li>allow you to verify your solution</li>
+</ul></li>
+<li>happy paths
+
+<ul>
+<li>combination of requirements; the &ldquo;obvious&rdquo; result</li>
+</ul></li>
+<li>Edge cases
+
+<ul>
+<li>focus on input</li>
+<li>emptiness (nil/null, &ldquo;&rdquo;, [], {})</li>
+<li>boundary conditions</li>
+<li>repetition / duplication</li>
+<li>data types</li>
+</ul></li>
+<li>Failures / Bad Input
+
+<ul>
+<li>raise exceptions / report errors</li>
+<li>return a special value (nil/null, 0, &ldquo;&rdquo;, [] etc)</li>
+</ul></li>
+<li>ask questions to verify your understanding!</li>
+</ul>
+
+<h3 id="data-structure">Data Structure</h3>
+
+<ul>
+<li>input data</li>
+
+<li><p>rules/requirements as data</p>
+
+<ul>
+<li>hash / object</li>
+</ul></li>
+
+<li><p>string, array, hash/object, number</p>
+
+<ul>
+<li>string
+
+<ul>
+<li>concact, strip, reverse, etc</li>
+<li>Regular Expression! split, replace, match&hellip;</li>
+</ul></li>
+<li>array
+
+<ul>
+<li>need to walk through it (iteration)</li>
+<li>index</li>
+<li>abstractions!!</li>
+<li>map</li>
+<li>reduce</li>
+<li>select/filter</li>
+<li>all</li>
+<li>&hellip;</li>
+</ul></li>
+<li>hash/object
+
+<ul>
+<li>lookup table / dictionary</li>
+<li>partition data for more efficient access downstream</li>
+<li>digest</li>
+</ul></li>
+<li>number
+
+<ul>
+<li>math operations</li>
+<li>number as string may have advantage over numbers</li>
+</ul></li>
+</ul></li>
+
+<li><p>compound data structures</p>
+
+<ul>
+<li>array of arrays</li>
+<li>hash with array/object values, etc</li>
+</ul></li>
+</ul>
+
+<h3 id="algorithm">Algorithm</h3>
+
+<ul>
+<li>Algorithms have to be described in the language of chosen data structure!
+
+<ul>
+<li>&ldquo;then solve it&rdquo; doesn&rsquo;t count</li>
+</ul></li>
+<li>Have to be really fluent with
+
+<ul>
+<li>String / Regex</li>
+<li>Array
+
+<ul>
+<li>Ruby: Enumerable</li>
+<li>JavaScript: Higher Order Functions</li>
+</ul></li>
+<li>Hash / Object
+
+<ul>
+<li>Creation (default values)</li>
+<li>Access (default values)</li>
+<li>Iteration</li>
+</ul></li>
+</ul></li>
+<li>verify your algorithm with your examples / test cases</li>
+</ul>
+
+<h3 id="abstraction">Abstraction</h3>
+
+<ul>
+<li>Very important, rely on language built in abstractions: String/Regex, Array, Hash/Object</li>
+<li>Avoid solving big problems!
+
+<ul>
+<li>Always, always, break bigger problems into smaller problems</li>
+<li>Don&rsquo;t try to walk through a wall</li>
+</ul></li>
+<li>lay out the general steps of an algorithm, without having to go to details
+
+<ul>
+<li>Try to solve a problem in 1-2 sentences!!!</li>
+<li>If you can&rsquo;t, raise your abstraction
+
+<ul>
+<li>create helper methods/functions</li>
+<li>push detailed steps to methods/functions</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="interview-tips">Interview Tips</h3>
+
+<ul>
+<li>Communicative</li>
+<li>Getting to a working solution &gt;&gt; no solution</li>
+<li>De-risking
+
+<ul>
+<li>Check your building blocks
+
+<ul>
+<li>run code often</li>
+<li>debug locally</li>
+</ul></li>
+</ul></li>
+<li>Manage your energy</li>
+</ul>
+
+<h3 id="template-md">Template (MD)</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">  <span style="font-weight:bold">#</span> Problem Solvine Template
+  <span style="font-weight:bold">###</span> Problem Description / Brief:
+  ---
+
+
+  ---
+  <span style="font-weight:bold">###</span> Understand the Problem
+  (Describe the problem. Requirements. Rules and Implicit Knowledge, Important Terms)
+
+
+  ---
+  <span style="font-weight:bold">###</span> Examples / Test Cases
+  (Input / Output, Edge Cases? Bad input?)
+
+
+  ---
+  <span style="font-weight:bold">###</span> Data Structures
+  (What data structure fits the problem and the input data?)
+  (Rules / requirements for input data?)
+
+
+  ---
+  <span style="font-weight:bold">###</span> Algorithm
+  (Create algorithm using language of chosen data structure)
+
+
+  ---
+  <span style="font-weight:bold">###</span> Abstraction
+  (Solve in 1-2 sentences, solve small problems)
+
+
+  ---
+  <span style="font-weight:bold">###</span> Pseudo Code  
+  (Pseudo Code...)
+  
+  
+  </code></pre></div>
+
+    
+    <br>
+    <div>
+      
+      
+      
+    </div>
+    </div>
+    </div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/blog/">Blog</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/_NeddySmith"><img alt="T" height="28" src="/img/common/twitter.png" width="28"></a>
+        </li>
+        <li>
+          <a href="https://github.com/neddy70"><img alt="T" height="28" src="/img/common/github.png" width="28"></a>
+        </li>
+      </ul>
+    </nav>
+    <p>&copy; Licence MIT. Powered by: <a href="https://gohugo.io/">Hugo</a>, Theme by: <a href="https://github.com/jeblister/kube">Kube</a></p>
+  </footer>
+ </footer>
+
+
+  <script src="/js/kube.js" type="text/javascript">
+  </script>
+  <script src="/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="/js/master.js" type="text/javascript">
+  </script>
+</body>
+
+</html>

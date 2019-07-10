@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neddy 70 on Neddy70</title>
+    <link>https://neddy70.github.io/</link>
+    <description>Recent content in Neddy 70 on Neddy70</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Apr 2018 16:45:32 +1000</lastBuildDate>
+    
+	<atom:link href="https://neddy70.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to import Micrsoft Office 2016 into Munki</title>
+      <link>https://neddy70.github.io/mac_admin/munki_import_ms_office/</link>
+      <pubDate>Fri, 27 Apr 2018 16:45:32 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/mac_admin/munki_import_ms_office/</guid>
+      <description>Steps  Download the desired installer package. run the following command, being sure to adjust the &amp;lt;MICROSOFT_OFFICE_PACKAGE&amp;gt;.pkg location at the start.
+munkiimport ~/Downloads/&amp;lt;MICROSOFT_OFFICE_PACKAGE&amp;gt; \ --name=MSOffice2016 --catalog=testing --minimum_os_version=10.10 --developer=Microsoft --category=Productivity \ --description=&amp;#34;Microsoft Office 2016 for Mac.&amp;#34; \ --blocking_application=&amp;#34;Microsoft Autoupdate&amp;#34; \ --blocking_application=&amp;#34;Microsoft Outlook&amp;#34; \ --blocking_application=&amp;#34;Microsoft Excel&amp;#34; \ --blocking_application=&amp;#34;Microsoft PowerPoint&amp;#34; \ --blocking_application=&amp;#34;Microsoft Word&amp;#34; \ --blocking_application=&amp;#34;Microsoft OneNote&amp;#34; \ --file &amp;#34;/Applications/Microsoft Excel.app&amp;#34; \ --file &amp;#34;/Applications/Microsoft OneNote.app&amp;#34; \ --file &amp;#34;/Applications/Microsoft Outlook.app&amp;#34; \ --file &amp;#34;/Applications/Microsoft PowerPoint.app&amp;#34; \ --file &amp;#34;/Applications/Microsoft Word.</description>
+    </item>
+    
+    <item>
+      <title>Launch School Mac Setup</title>
+      <link>https://neddy70.github.io/launch_school/mac-setup/</link>
+      <pubDate>Wed, 25 Apr 2018 18:12:53 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/launch_school/mac-setup/</guid>
+      <description>Install Homebrew /usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; Install Ruby using rbenv Use Homebrew to install rbenv:
+brew update &amp;amp;&amp;amp; brew install rbenv ruby-build Restart terminal, and install ruby: (I&amp;rsquo;m installing ruby version 2.5.0 here)
+rbenv install 2.5.0 Next set your global Ruby version
+rbenv global 2.5.0 Finally check your ruby version
+ruby -v #=&amp;gt; ruby 2.5.0 ... 
+Reference: https://gorails.com/setup/osx/10.12-sierra</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://neddy70.github.io/blog/hello-world/</link>
+      <pubDate>Wed, 25 Apr 2018 18:10:28 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/blog/hello-world/</guid>
+      <description>In this blog I hope to capture my journey at Launch School as I progress as a developer. I also hope to amass a small number of &amp;lsquo;How To&amp;rsquo;s&amp;rsquo; and information in the other sections of this website.
+Initially this site will be a bit of a work in progress, as I build up my skills, I plan to improve the site layout and functionality. For now, I&amp;rsquo;m happy with how it works, my main requirements we being able to write posts in Markdown wiht code highlighting.</description>
+    </item>
+    
+    <item>
+      <title>Script to Create Exercise Files</title>
+      <link>https://neddy70.github.io/launch_school/script-to-create-exercise-files/</link>
+      <pubDate>Fri, 27 Apr 2018 22:45:26 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/launch_school/script-to-create-exercise-files/</guid>
+      <description>How to use Copy the script to a directory you would like to have file with exercise files, adjust the variable at the top to the number of exercises, then run the script.
+I use Atom as my text editor and I can do this all in the editor, by copying the file to a new directory, editing the number of exercises, then running the script with the &amp;lsquo;code runner&amp;rsquo; package for Atom ( CRTL + X ).</description>
+    </item>
+    
+    <item>
+      <title>Problem Solving Notes</title>
+      <link>https://neddy70.github.io/launch_school/problem-solving-notes/</link>
+      <pubDate>Thu, 03 May 2018 10:59:47 +1000</pubDate>
+      
+      <guid>https://neddy70.github.io/launch_school/problem-solving-notes/</guid>
+      <description>Small Code Challenge Problems  20 - 45 minutes typical solutions: 10-40 LOC used extensively in interviews for a reason  mastery on a language logic / reasoning communications  not a skill that you &amp;ldquo;acquire and file away&amp;rdquo;, but needs a lot of practice  Understand the Problem  requirements are explicit  take notes the odd words problem  requirements are not so explicit and need to be modeled  examples need to be described in computational words diamond of stars  implicit knowledge needs to be captured  convert to explicit rules, in computational language what century is that  identifying and defining important terms and concepts  queen attack same row; same column; esp.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://neddy70.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://neddy70.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
